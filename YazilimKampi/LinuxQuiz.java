@@ -66,6 +66,22 @@ public class LinuxQuiz {
         } else {
             System.out.println("Yanlış! Doğru cevap: rm -r\n");
         }
+        System.out.println("4.Dosyanın içeriğini terminale yazdıran komut nedir?");
+        System.out.println("1) cat");
+        System.out.println("2) echo");
+        System.out.println("3) rm -r");
+        System.out.print("Cevabın: ");
+        int cevap3 = soruSor(scanner);
+        if (cevap3 == CIKIS) {
+            System.out.println("\nQuiz yarıda kesildi.");
+            return -1;
+        }
+        if (cevap3 == 1) {
+            System.out.println("Doğru!\n");
+            puan = puan + 10;
+        } else {
+            System.out.println("Yanlış! Doğru cevap: rm -r\n");
+        }
 
         return puan;
     }
