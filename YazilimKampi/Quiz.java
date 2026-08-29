@@ -13,7 +13,7 @@ public class Quiz {
         int toplamPuan = 0;
         boolean devamEt = true;
 
-        System.out.println("=== Özgür Yazılım Kampı Mini Quizine Hoş Geldin! ===");
+        System.out.println("=== 2026 Özgür Yazılım Kampı Mini Quizine Hoş Geldin! ===");
         System.out.println("İpucu: Quiz içerisindeyken her an çıkmak için 'q' tuşuna basabilirsin.\n");
 
         while (devamEt) {
